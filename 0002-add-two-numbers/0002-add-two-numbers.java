@@ -10,17 +10,9 @@
  */
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        ListNode resultList,temp;
+        ListNode resultList = new ListNode(),temp;
         int sum,l1Value,l2Value,result,prevCarryDigit = 0;
         
-        l1Value = (l1 != null) ? l1.val : 0;
-        l2Value = (l2 != null) ? l2.val : 0;
-        sum = l1Value + l2Value + prevCarryDigit;
-        result = (sum) % 10 ;
-        resultList = new ListNode(result);
-        prevCarryDigit=sum/10;
-        if (l1 != null ) l1 = l1.next;
-        if (l2 != null ) l2 = l2.next;
         
         temp = resultList;
         
@@ -41,6 +33,6 @@ class Solution {
             if (l2 != null ) l2 = l2.next;
         }
 
-        return resultList;
+        return resultList.next;
     }
 }
