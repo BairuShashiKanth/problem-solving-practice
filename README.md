@@ -11,8 +11,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0160-intersection-of-two-linked-lists](https://github.com/BairuShashiKanth/problem-solving-practice/tree/master/0160-intersection-of-two-linked-lists) |
+| [0707-design-linked-list](https://github.com/BairuShashiKanth/problem-solving-practice/tree/master/0707-design-linked-list) |
 ## Two Pointers
 |  |
 | ------- |
 | [0160-intersection-of-two-linked-lists](https://github.com/BairuShashiKanth/problem-solving-practice/tree/master/0160-intersection-of-two-linked-lists) |
+## Design
+|  |
+| ------- |
+| [0707-design-linked-list](https://github.com/BairuShashiKanth/problem-solving-practice/tree/master/0707-design-linked-list) |
 <!---LeetCode Topics End-->
