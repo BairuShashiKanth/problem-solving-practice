@@ -22,7 +22,6 @@ class Solution {
             l2Value = (l2 != null) ? l2.val : 0;
             sum = l1Value + l2Value + prevCarryDigit;
             result = (sum) % 10 ;
-            System.out.println("result:"+result);
  
             temp.next = new ListNode(result);
             temp = temp.next;
