@@ -1,6 +1,6 @@
 class MyLinkedList {
 
-    private class Node{
+    static private class Node{
         int val;
         Node next;
 
