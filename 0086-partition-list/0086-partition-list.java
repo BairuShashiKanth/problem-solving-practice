@@ -18,18 +18,17 @@ class Solution {
 
 
         while(curr != null){
-            ListNode newNode = new ListNode(curr.val);
             if(curr.val < x)
             {
                 
                 if(partition1Head == null)
                 {
-                    partition1Head = newNode;
-                    partition1Tail = newNode;
+                    partition1Head = curr;
+                    partition1Tail = curr;
                 }
                 else
                 {
-                    partition1Tail.next = newNode;
+                    partition1Tail.next = curr;
                     partition1Tail = partition1Tail.next;
                 }
             }
@@ -37,17 +36,19 @@ class Solution {
                  
                 if(partition2Head == null)
                 {    
-                    partition2Head = newNode;
-                    partition2Tail = newNode;
+                    partition2Head = curr;
+                    partition2Tail = curr;
                 }
                 else
                 {
-                    partition2Tail.next = newNode;
+                    partition2Tail.next = curr;
                     partition2Tail = partition2Tail.next;
                 }
             }
             curr = curr.next;
         }
+
+        if(partition2Tail != null) partition2Tail.next = null; //break existing pointer to ensure no cycle
 
         if(partition1Head == null) return partition2Head;
         if(partition2Head == null) return partition1Head;
