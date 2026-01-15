@@ -26,8 +26,8 @@ class Solution {
         
         tail.next = head; //making it a circular linkedList.
 
-        int stepsToNewHead = length - k - 1;
-        newTail = head;
+        int stepsToNewHead = length - k ;
+        newTail = tail;
         while(stepsToNewHead-- > 0)
             newTail = newTail.next;
         
