@@ -10,8 +10,8 @@ class Solution {
 
             if(hashMap.containsKey(remaining) )
                 return new int[] {i,hashMap.get(remaining)};
-            else
-                hashMap.put(nums[i],i); 
+            
+            hashMap.put(nums[i],i); 
         }
 
         return new int[] {};
