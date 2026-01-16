@@ -11,24 +11,52 @@
 class Solution {
     public boolean isPalindrome(ListNode head) {
         
-        ArrayList<Integer> arrayList = new ArrayList();
-        ListNode curr = head;
+        // if(head == null | head.next == null) return true;
 
-        while(curr != null){
-            arrayList.add(curr.val);
-            curr = curr.next;
-        }
+        ListNode firstHalfEndNode = getMiddleNode(head);
+        ListNode secondHalfRevStartNode = reverseLinkedList(firstHalfEndNode.next);
 
-        int front = 0;
-        int back = arrayList.size() - 1;
+        ListNode p1 = head, p2 = secondHalfRevStartNode;
 
-        while(front<back){
-            if(!(arrayList.get(front) == arrayList.get(back)))
+        while( p2 != null)
+        {
+            if(p1.val != p2.val)
                 return false;
-            front++;
-            back--;
+            p1= p1.next;
+            p2 = p2.next;
         }
 
         return true;
+    }
+
+
+    public ListNode getMiddleNode(ListNode head)
+    {
+        ListNode fast = head.next;
+        ListNode slow = head;
+
+        while(fast!= null && fast.next != null){
+            fast = fast.next.next;
+            slow = slow.next;
+        }
+
+        return slow;
+    }
+
+    public ListNode reverseLinkedList(ListNode head)
+    {
+        ListNode prev = null;
+        ListNode curr = head;
+        ListNode temp;
+
+        while(curr != null){
+
+            temp = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = temp;
+        }
+
+        return prev;
     }
 }
