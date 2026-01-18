@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/BairuShashiKanth/problem-solving-practice/tree/master/0001-two-sum) |
 | [0138-copy-list-with-random-pointer](https://github.com/BairuShashiKanth/problem-solving-practice/tree/master/0138-copy-list-with-random-pointer) |
 | [0160-intersection-of-two-linked-lists](https://github.com/BairuShashiKanth/problem-solving-practice/tree/master/0160-intersection-of-two-linked-lists) |
+| [0202-happy-number](https://github.com/BairuShashiKanth/problem-solving-practice/tree/master/0202-happy-number) |
 ## Linked List
 |  |
 | ------- |
@@ -32,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/BairuShashiKanth/problem-solving-practice/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
 | [0086-partition-list](https://github.com/BairuShashiKanth/problem-solving-practice/tree/master/0086-partition-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/BairuShashiKanth/problem-solving-practice/tree/master/0160-intersection-of-two-linked-lists) |
+| [0202-happy-number](https://github.com/BairuShashiKanth/problem-solving-practice/tree/master/0202-happy-number) |
 | [0234-palindrome-linked-list](https://github.com/BairuShashiKanth/problem-solving-practice/tree/master/0234-palindrome-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/BairuShashiKanth/problem-solving-practice/tree/master/0876-middle-of-the-linked-list) |
 ## Design
@@ -42,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/BairuShashiKanth/problem-solving-practice/tree/master/0002-add-two-numbers) |
+| [0202-happy-number](https://github.com/BairuShashiKanth/problem-solving-practice/tree/master/0202-happy-number) |
 ## Recursion
 |  |
 | ------- |
