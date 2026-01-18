@@ -4,7 +4,7 @@ class Solution {
 
         HashSet<Integer> set = new HashSet<>();
 
-        while(!set.contains(n))
+        while(n != 1 && !set.contains(n))
         {
             set.add(n);
             n = sumOfSquares(n);
