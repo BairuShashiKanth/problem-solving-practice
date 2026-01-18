@@ -4,15 +4,13 @@ class Solution {
 
         HashSet<Integer> set = new HashSet<>();
 
-        while(n != 1)
+        while(!set.contains(n))
         {
-            n = sumOfSquares(n);
-            if(set.contains(n)) return false;
             set.add(n);
-            
+            n = sumOfSquares(n);
         }
         
-        return true;
+        return n == 1;
 
     }
 
