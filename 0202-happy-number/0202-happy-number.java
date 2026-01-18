@@ -9,7 +9,7 @@ class Solution {
             n = sumOfSquares(n);
             if(set.contains(n)) return false;
             set.add(n);
-            System.out.print("n value: "+n);
+            
         }
         
         return true;
