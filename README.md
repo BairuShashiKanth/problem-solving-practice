@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0160-intersection-of-two-linked-lists](https://github.com/BairuShashiKanth/problem-solving-practice/tree/master/0160-intersection-of-two-linked-lists) |
 | [0202-happy-number](https://github.com/BairuShashiKanth/problem-solving-practice/tree/master/0202-happy-number) |
 | [0234-palindrome-linked-list](https://github.com/BairuShashiKanth/problem-solving-practice/tree/master/0234-palindrome-linked-list) |
+| [0392-is-subsequence](https://github.com/BairuShashiKanth/problem-solving-practice/tree/master/0392-is-subsequence) |
 | [0876-middle-of-the-linked-list](https://github.com/BairuShashiKanth/problem-solving-practice/tree/master/0876-middle-of-the-linked-list) |
 ## Design
 |  |
@@ -66,4 +67,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/BairuShashiKanth/problem-solving-practice/tree/master/0001-two-sum) |
+## String
+|  |
+| ------- |
+| [0392-is-subsequence](https://github.com/BairuShashiKanth/problem-solving-practice/tree/master/0392-is-subsequence) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0392-is-subsequence](https://github.com/BairuShashiKanth/problem-solving-practice/tree/master/0392-is-subsequence) |
 <!---LeetCode Topics End-->
