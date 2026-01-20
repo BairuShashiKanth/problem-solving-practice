@@ -1,17 +1,15 @@
 class Solution {
     public boolean isSubsequence(String s, String t) {
         
-        int sp = 0;
-        int tp = 0;
-
-        while (sp < s.length() && tp < t.length()) {
-            if (s.charAt(sp) == t.charAt(tp)) {
-                sp++;
-            }
-            tp++;
+        int sPos = 0, tPos = 0;
+        int sLength = s.length(), tLength = t.length();
+       
+        while(sPos < sLength && tPos < tLength){
+            if(s.charAt(sPos) == t.charAt(tPos))
+                sPos++;
+            tPos++;
         }
 
-        return sp == s.length();     
-
+        return sPos == sLength;   
     }
 }
